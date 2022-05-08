@@ -6,7 +6,7 @@ name: CI
 on:
   # 하루에 한 번 씩 빌드 수행
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 0 * * *'
   pull_request:
     branches: [ main ]
 
